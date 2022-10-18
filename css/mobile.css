@@ -1,0 +1,135 @@
+@media (max-width: 780px) {
+  .mobile-only {
+    display: block;
+  }
+
+  header {
+    padding: 2.5rem 0;
+  }
+  .container {
+    padding: 1.5rem 2rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hamburger-button-wrapper {
+    display: block;
+  }
+
+  .introduction-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 2.4rem 1.25rem;
+  }
+
+  .introduction-wrapper h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+
+  main {
+    margin-top: 5rem;
+  }
+
+  .about-section {
+    display: block;
+    margin-bottom: 5rem;
+  }
+
+  .about-section .about-image-wrapper {
+    width: 100%;
+  }
+
+  .about-section .about-content-wrapper {
+    width: 100%;
+    padding: 3rem;
+    background-color: white;
+    position: static;
+    text-align: center;
+  }
+
+  .about-content-wrapper h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .creations-section {
+    text-align: center;
+  }
+  .creations-section-header {
+    display: block;
+  }
+
+  .creations-section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .creations-section-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .creations-section-header .all-creations-link-wrapper {
+    display: none;
+  }
+
+  .all-creations-link {
+    display: inline-block;
+    padding: 0.75rem 3.5rem;
+  }
+
+  .creations-images-wrapper {
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .creations-images-wrapper .creation-card {
+    height: 175px;
+    width: 100%;
+    margin: 1.5rem 0;
+    position: relative;
+  }
+
+  .creation-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  figcaption {
+    text-align: left;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .secondary-nav-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .secondary-nav-wrapper ul li {
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .social-and-copyright-wrapper {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .social-and-copyright-wrapper .copyright-container {
+    margin-top: 0.5rem;
+  }
+}
