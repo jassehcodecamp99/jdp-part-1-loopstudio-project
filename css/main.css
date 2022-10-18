@@ -64,6 +64,11 @@ nav ul a,
   text-decoration: none;
 }
 
+nav ul a:hover,
+.secondary-nav-wrapper ul a:hover {
+  text-decoration: underline;
+}
+
 .introduction-wrapper {
   margin-top: 8rem;
   width: 56%;
